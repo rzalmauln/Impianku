@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impianku</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./dist/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="./dist/scss/font-response.css">
+    <link rel="stylesheet" href="./dist/aos/aos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./dist/images/logo.png" width="150" alt=""
+                        style="opacity: 1;"></a>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="">
+                            <a class="nav-link active px-3" aria-current="page" href="#home">Beranda</a>
+                        </li>
+                        <li class="">
+                            <a class="nav-link link-secondary px-3" href="#service">Pelayanan Kami</a>
+                        </li>
+                        <li class="">
+                            <a class="nav-link link-secondary px-3" href="#how-we">Cara Kami</a>
+                        </li>
+                        <li class="">
+                            <a class="nav-link link-secondary px-3" href="#mentor">Mentor</a>
+                        </li>
+                        <li class="">
+                            <a class="nav-link link-secondary px-3" href="#consultation">Konsultasi</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-orange" type="submit">Daftar Yuk</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="py-5">
+            <div class="container col-xxl-12 ">
+                <div
+                    class="row flex-lg-row flex-column-reverse flex-sm-row justify-content-center align-items-center g-5 pb-5">
+                    <div class="col-lg-6 col-sm-6 col-10" data-aos="zoom-out-up" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="true"
+                        data-aos-anchor-placement="top-center">
+                        <div>
+                            <h1 class="display-5 mb-3 headline">Mari wujudkan <br> semua impianmu!
+                            </h1>
+                        </div>
+                        <figure class="">
+                            <blockquote class="blockquote color-brown fw-light" style="line-height: 2cm;">
+                                <p>
+                                    <strong>Dapatkan pengalaman terbaik bersama impianmu</strong>
+                                <p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer fs-6" style="color: #AEAEAE;">
+                                Impianmu merupakan platform aku dan masa depan yang mengedepankan
+                                konsumen (pelajar atau mahasiswa) untuk menemukan masa depan
+                                mereka dengan menggunakan metriks metriks tertentu
+                            </figcaption>
+                        </figure>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a class="btn background-orange btn-lg px-4 me-md-2 fs-6 text-light">Pelajari
+                            </a>
+                            <a class="btn px-4 color-orange"> <img
+                                    src="data:image/png;base64,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"
+                                    width="20">
+                                Tonton Video</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6" data-aos="zoom-in-down" data-aos-offset="10"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <img src="./dist/images/gambar1.png" class="d-lg-block d-sm-block d-none mx-lg-auto img-fluid"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <div class="px-4 py-5 my-5 text-center" data-aos="fade-up" data-aos-offset="10" data-aos-delay="0"
+                data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+                data-aos-anchor-placement="top-center">
+                <h5 class="color-orange" style="letter-spacing: 2px;">PELAYANAN KAMI</h5>
+                <h3 class="display-5 fw-bold">Kenapa harus memilih kami ?</h3>
+                <div class="mx-auto my-4 text-pelayanan">
+                    <p class="lead" style="color: #B0B0B0;line-height: 1cm;">kami telah
+                        membantu hampir
+                        100.000 + pelajar maupun mahasiswa diseluruh negeri
+                        dalam menemukan passion maupun menemukan cita cita</p>
+                </div>
+            </div>
+            <div class="container px-5 py-4" id="featured-3">
+                <div class="row g-4 py-2 flex-sm-row flex-column flex-lg-row">
+                    <div class="feature col text-center" data-aos="fade-right" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="feature-icon bg-gradient">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="40" r="40" fill="#FF7A00" fill-opacity="0.13" />
+                                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="23" y="43" width="26"
+                                    height="13">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M23.3333 43.2617H48.6396V55.0943H23.3333V43.2617Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M35.9863 45.7617C31.3547 45.7617 25.833 46.3567 25.833 49.1983C25.833 51.4517 29.2497 52.595 35.9863 52.595C42.723 52.595 46.1397 51.44 46.1397 49.165C46.1397 46.9067 42.723 45.7617 35.9863 45.7617ZM35.9863 55.095C32.5263 55.095 23.333 55.095 23.333 49.1983C23.333 43.2617 32.8563 43.2617 35.9863 43.2617C41.418 43.2617 48.6397 43.8733 48.6397 49.165C48.6397 55.095 39.1163 55.095 35.9863 55.095Z"
+                                        fill="#FF7A00" />
+                                </g>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M35.9863 25.8333C32.6447 25.8333 29.9263 28.5517 29.9263 31.8917C29.9263 35.2317 32.6447 37.95 35.9863 37.95H36.038C37.6447 37.9433 39.158 37.3117 40.293 36.1667C41.4297 35.025 42.0513 33.5067 42.0447 31.8967C42.0447 28.5517 39.3263 25.8333 35.9863 25.8333ZM35.9863 40.45C31.2663 40.45 27.4263 36.61 27.4263 31.8917C27.4263 27.1733 31.2663 23.3333 35.9863 23.3333C40.7047 23.3333 44.5447 27.1733 44.5447 31.8917C44.5547 34.165 43.673 36.3117 42.0663 37.9283C40.463 39.5467 38.3213 40.4417 36.043 40.45H35.9863Z"
+                                    fill="#FF7A00" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M47.4706 38.553C46.8573 38.553 46.3223 38.1013 46.234 37.4763C46.139 36.793 46.614 36.1597 47.2973 36.0647C49.3773 35.773 50.9473 33.968 50.9506 31.8647C50.9506 29.7747 49.454 28.0113 47.3956 27.6747C46.714 27.5613 46.2523 26.9197 46.364 26.238C46.4756 25.5563 47.1206 25.098 47.799 25.2063C51.074 25.743 53.4506 28.5447 53.4506 31.8663C53.444 35.208 50.949 38.078 47.6456 38.5413C47.5873 38.5497 47.529 38.553 47.4706 38.553Z"
+                                    fill="#FF7A00" />
+                                <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="49" y="42" width="8"
+                                    height="9">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M49.742 42.4723H56.6316V50.7682H49.742V42.4723Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask1)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M53.1591 50.7682C52.6541 50.7682 52.1791 50.4598 51.9908 49.9615C51.7458 49.3165 52.0708 48.5932 52.7158 48.3498C54.1325 47.8132 54.1325 47.1582 54.1325 46.8782C54.1325 45.9332 53.0141 45.2865 50.8091 44.9582C50.1258 44.8548 49.6541 44.2182 49.7558 43.5365C49.8591 42.8532 50.5075 42.3948 51.1775 42.4832C55.6875 43.1582 56.6325 45.2465 56.6325 46.8782C56.6325 48.0932 56.1075 49.7382 53.6025 50.6865C53.4575 50.7415 53.3075 50.7682 53.1591 50.7682Z"
+                                        fill="#FF7A00" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h2>Komunitas</h2>
+                        <p>kami membangun ekosistem
+                            maupun komunitas yang
+                            mendukung dan menunjang
+                            kapasitas diri anda.</p>
+                    </div>
+                    <div class="feature col text-center" data-aos="fade-up" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="feature-icon bg-gradient">
+                            <img src="./dist/images/video.png" width="80" height="80" alt="" srcset="">
+                        </div>
+                        <h2>Interaktif</h2>
+                        <p>Kami secara professional dan efisien
+                            menyediakan konten tentang
+                            masa depan yang interaktif dan
+                            mudah dimengerti untuk semua usia</p>
+                    </div>
+                    <div class="feature col text-center" data-aos="fade-left" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="feature-icon bg-gradient">
+                            <img src="./dist/images/orang.png" width="80" height="80" alt="" srcset="">
+                        </div>
+                        <h2>Ahli</h2>
+                        <p>Semua layanan kami dilakukan dan
+                            dikelola oleh orang orang yang
+                            secara professional dan passion
+                            dalam bidangnya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="how-we">
+            <div class="container padding col-xxl-12 px-4 py-5">
+                <div class="row padding flex-lg-row align-items-center flex-sm-row flex-column-reverse g-5 py-5">
+                    <div class="col-sm-6 col-12 col-lg-6" data-aos="fade-up-right" data-aos-offset="10"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <h5 class="text-center color-orange" style="letter-spacing: 2px;">CARA KAMI</h5>
+                        <h1 class="display-5 fw-bold lh-base mb-3 text-start">Kami dapat membantu anda dalam
+                            menemukan karir anda</h1>
+                        <p class="lead text-secondary">kami dapat membantu kamu dengan bantuan indikator kami
+                            dan kami dapat membantu kamu untuk menemkan tipe kamu
+                            dengan bantuan EBMT kami untuk membuat lebih baik
+                        </p>
+                        <a href="#" class="btn background-orange text-light btn-lg fs-6 mt-4 px-5 py-3"
+                            style="border-radius: 30px;">Lihat lebih lanjut !</a>
+                    </div>
+                    <div class="col-lg-6 col-12 col-sm-6" data-aos="fade-up-left" data-aos-offset="10"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <img class="d-block mx-lg-auto img-fluid" src="./dist/images/gambar2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mentor">
+            <div class="container-fluid padding">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h4 class="text-center color-orange" style="letter-spacing: 2px;">Mentor</h4>
+                        <h1 class=" display-4 fs-1 fw-bold lh-base mb-3 text-start text-center">Perkenalkan Mentor Ahli
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <!--- Cards -->
+            <div class="container padding ">
+                <div class="row padding  justify-content-center">
+                    <div class="col-lg-3 col-sm-4 col-8 me-sm-0 me-4 me-lg-4" data-aos="flip-right" data-aos-offset="20"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="card border-0 px-3 py-5">
+                            <img class="card-img-top mx-auto" src="./dist/images/mbak 1.png">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Zaskia Angela</h4>
+                                <p class="card-text">Guru Seni dan Gambar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-8 me-sm-0 me-4 me-lg-4" data-aos="flip-up" data-aos-offset="20"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="card border-0 px-3 py-5 ">
+                            <img class="card-img-top mx-auto" src="./dist/images/mas 2.png">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Robert Lansev</h4>
+                                <p class="card-text">Guru Programming</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-8 me-sm-0 me-4 me-lg-4" data-aos="flip-left" data-aos-offset="20"
+                        data-aos-delay="0" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <div class="card border-0 px-3 py-5">
+                            <img class="card-img-top mx-auto" src="./dist/images/mbak 3.png">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Beci Harmony</h4>
+                                <p class="card-text">Guru Matematika</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="consultation">
+            <div class="container col-xxl-12 px-4 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-12 col-sm-6 col-lg-6" data-aos="zoom-in-up" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <img src="./dist/images/gambar3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                            loading="lazy">
+                    </div>
+                    <div class="col-sm-6 col-12 col-lg-6" data-aos="fade-down" data-aos-offset="10" data-aos-delay="0"
+                        data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="true" data-aos-anchor-placement="top-center">
+                        <h5 class="color-orange text-center" style="letter-spacing: 2px;">KONSULTASI</h5>
+                        <h1 class="display-5 fw-bold lh-base mb-3 text-end">Orang tuamu juga dapat
+                            berkonsultasi tentang masa
+                            depanmu</h1>
+                        <p class="lead text-secondary text-end">Komunikasi adalah cara terbaik dalam mengatasi masalah
+                            kami dapat menghadirkan peran orang tua dalam mengatasi
+                            masa depan anda dengan adanya layanan konsultasi bagi orang tua</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                            <button type="button" class="btn btn-outline-orange btn-lg fs-6 px-5 py-3"
+                                style="border-radius: 30px;">Konsultasi yuk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-14398">
+        <div class="container">
+            <div class="row col-md-10 mb-5">
+                <div class="col-md-7">
+                    <a href="#" class="footer-site-logo img-fluid"><img src="./dist/images/logo-white.png" alt=""
+                            width="150"></a>
+                    <p> Tentukan karir dan masa depanmu dengan impianmu </p>
+                </div>
+                <div class="col-md-3 ml-auto">
+                    <h3>Website Element</h3>
+                    <ul class="list-unstyled links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#service">Pelayanan Kami</a></li>
+                        <li><a href="#how-we">Cara Kami</a></li>
+                        <li><a href="#mentor">Mentor</a></li>
+                        <li><a href="#consultation">Konsultasi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-12 pb-4">
+                    <div class="line"></div>
+                </div>
+                <div class="col-md-6 text-md-left">
+                    <ul class="list-unstyled link-menu nav-left">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Code of Conduct</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <ul class="list-unstyled social nav-right">
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <p><small>&copy Impianmu, 2021 All Right Reserved</small></p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./dist/aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.addEventListener("scroll", () => {
+            let header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 50);
+
+            let navbar = document.querySelector(".navbar-toggler-icon");
+            navbar.classList.toggle("navbar-light", window.scrollY > 50);
+        })
+    </script>
+</body>
+
+</html>
